@@ -1,8 +1,7 @@
-.list_item {
-  list-style-type: none;
+.list__text {
   font-family: Inter;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   color: #FFF;
