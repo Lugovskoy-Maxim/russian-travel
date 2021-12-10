@@ -1,0 +1,9 @@
+.header__list-item {
+  margin-right: 18px;
+  list-style-type: none;
+  color: #fff;
+}
+
+.header__list-item:last-of-type {
+  margin-right: 0;
+}

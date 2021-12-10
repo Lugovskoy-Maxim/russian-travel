@@ -1,0 +1,9 @@
+.place__paragraph-container {
+  grid-area: paragrah-container;
+}
+
+@media screen and (max-width: 600px) {
+  .place__paragraph {
+    margin:0 16px 0;
+  }
+}
