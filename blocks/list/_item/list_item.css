@@ -1,7 +1,8 @@
-.intro__list_text {
+.list_item {
+  list-style-type: none;
   font-family: Inter;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
   color: #FFF;
