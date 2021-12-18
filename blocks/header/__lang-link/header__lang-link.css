@@ -3,6 +3,7 @@
   line-height: 1.25;
   color: #fff;
   text-decoration: none;
+  transition: opacity .3s ease;
 }
 
 @media screen and (max-width: 320px) {
@@ -10,4 +11,8 @@
     font-size: 18px;
     line-height: 1.11;
   }
+}
+
+.header__lang-link:hover {
+  opacity: 0.5;
 }

@@ -1,6 +1,11 @@
 .link {
   text-decoration: none;
   color: #fff;
+  transition: opacity .3s ease;
+}
+
+.link:hover {
+  opacity: 0.5;
 }
 
 /* нужно добавить визуальный эффект посященной ссылке */
