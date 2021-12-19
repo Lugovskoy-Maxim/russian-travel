@@ -1,4 +1,5 @@
 .place__paragraph {
+  margin: 0;
   margin-bottom: 26px;
   font-style: normal;
   font-weight: normal;
@@ -6,10 +7,9 @@
   line-height: 163%;
   color: #fff;
   max-width: 484px;
-  margin-right: 148px;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:nth-child(2n) {
   margin-bottom: 0;
 }
 
