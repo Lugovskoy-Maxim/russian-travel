@@ -5,6 +5,7 @@
   z-index: 1;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
+  margin: 0 48px;
 }
 
 .cover::before {
@@ -22,4 +23,10 @@
 
 .cover:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1140px) {
+  .cover {
+      margin: 0;
+  }
 }

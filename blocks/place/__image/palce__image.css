@@ -8,23 +8,20 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1140px) {
   .place__image {
-    height: 440px;
-    width: 440px;
+    max-height: 440px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 984px) {
   .place__image {
-    height: 340px;
-    width: 340px;
+    max-height: 340px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .place__image {
-    height: 320px;
-    width: 320px;
+    height: 100%;
   }
 }

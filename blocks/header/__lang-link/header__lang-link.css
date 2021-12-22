@@ -4,9 +4,10 @@
   color: #fff;
   text-decoration: none;
   transition: opacity .3s ease;
+  text-align: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;
