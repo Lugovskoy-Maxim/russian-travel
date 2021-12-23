@@ -13,18 +13,21 @@
 @media screen and (max-width: 1200px) {
   .cover__overlay-link {
     min-height: 640px;
+    max-height: 740px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .cover__overlay-link {
     min-height: 480px;
+    max-height: 640px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .cover__overlay-link {
     min-height: 350px;
+    max-height: 480px;
     margin-top: 90px;
   }
 }
@@ -32,6 +35,7 @@
 @media screen and (max-width: 400px) {
   .cover__overlay-link {
     min-height: 200px;
+    max-height: 350px;
     margin-top: 66px;
   }
 }
