@@ -5,11 +5,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 968px) {
-  .footer__copyright {
-    margin-right: 24px;
-  }
-}
+
 
 @media screen and (max-width: 568px) {
   .footer__copyright {
